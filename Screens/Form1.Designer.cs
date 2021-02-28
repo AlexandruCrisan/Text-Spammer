@@ -25,6 +25,7 @@ namespace Text_Spammer {
         /// </summary>
         private void InitializeComponent () {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TB1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_start = new System.Windows.Forms.Button();
@@ -89,6 +90,7 @@ namespace Text_Spammer {
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TB1);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Text Spammer";
             this.Load += new System.EventHandler(this.Form1_Load);
